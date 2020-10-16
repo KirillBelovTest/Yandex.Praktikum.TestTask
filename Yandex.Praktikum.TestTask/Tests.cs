@@ -1,8 +1,12 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using NUnit.Framework;
 using RestSharp;
 using System;
 using System.Collections.Generic;
+
+/*Задача 3 (опциональная, третий уровень сложности)*/
+
+/*Напиши автотесты, которые покроют написанный код. Тестовая модель для задания - результаты первого уровня.*/
 
 namespace Yandex.Praktikum.TestTask.Tests
 {
