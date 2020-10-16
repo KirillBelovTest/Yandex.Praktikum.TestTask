@@ -1,11 +1,8 @@
 ﻿using Newtonsoft.Json;
 using NUnit.Framework;
 using RestSharp;
-using RestSharp.Serialization.Json;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Text.Json.Serialization;
 
 namespace Yandex.Praktikum.TestTask.Tests
 {

@@ -103,9 +103,9 @@ CreditCalculator[args___] :=
 $creditCalculatorAPI = 
 	CloudDeploy[
 		APIFunction[{}, CreditCalculator[ImportString[HTTPRequestData["Body"], "RawJSON"]]&, "RawJSON"],
-        "Deploy/Yandex.Praktikum/CreditCalculator/API/" <> Hash[CreditCalculator, "SHA", "HexString"], 
-        Permissions -> "Public"
-    ]; 
+		"Deploy/Yandex.Praktikum/CreditCalculator/API/" <> Hash[CreditCalculator, "SHA", "HexString"], 
+		Permissions -> "Public"
+	]; 
 
 
 $creditCalculatorForm = 
@@ -134,6 +134,6 @@ $creditCalculatorForm =
 				KeyExistsQ[res, "message"], 
 					Style[res["message"], "Subtitle", Red]
 			]]&, AppearanceRules -> <|"ItemLayout" -> "Vertical"|>],
-        "Deploy/Yandex.Praktikum/CreditCalculator/Form/" <> Hash[CreditCalculator, "SHA", "HexString"], 
-        Permissions -> "Public"
-    ]; 
+		"Deploy/Yandex.Praktikum/CreditCalculator/Form/" <> Hash[CreditCalculator, "SHA", "HexString"], 
+		Permissions -> "Public"
+	]; 
