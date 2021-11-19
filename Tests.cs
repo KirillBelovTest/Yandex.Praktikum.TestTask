@@ -68,7 +68,7 @@ namespace Yandex.Praktikum.TestTask.Tests
         public CreditCalculatorAPI()
         {
             RestClient = new RestClient();
-            URL = "https://www.wolframcloud.com/obj/kirillbelovtest/Deploy/Yandex.Praktikum/CreditCalculator/API/f7426666d3a1d26615e2f6568813bc6d910fecf3";
+            URL = "https://www.wolframcloud.com/obj/kirillbelovtest/Deploy/Yandex.Praktikum.TestTask/CreditCalculator/API/f7426666d3a1d26615e2f6568813bc6d910fecf3";
         }
 
         public CalcResponse Calc(object body)
