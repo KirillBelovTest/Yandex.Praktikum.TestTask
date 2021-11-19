@@ -240,5 +240,5 @@ UI для расчета суммы кредита проверяет введе
 
 ### Задачи 2 и 3
 
-- Решение задачи 2 в файле CreditCalculator.wl
-- Решение задачи 3 в файле Tests.cs
+- Решение задачи 2 в файле [CreditCalculator.wl](CreditCalculator.wl)
+- Решение задачи 3 в файле [Tests.cs](Tests.cs)
